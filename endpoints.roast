@@ -1,0 +1,13 @@
+# App endpoints
+
+GET http://localhost:8000/text
+
+GET http://localhost:8000/image/
+
+Content-Type: application/json
+POST http://localhost:8000/convert/ << RAW
+{
+  "url": "https://www.textbroker.es/wp-content/uploads/sites/7/2019/11/textbroker_fb-1.jpg",
+  "name": "text-3.jpg"
+}
+RAW
